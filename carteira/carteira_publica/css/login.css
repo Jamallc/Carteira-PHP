@@ -1,0 +1,273 @@
+input{
+  border-radius: 5px;
+  border: 1px solid;
+  width: 100%;
+  height: 40px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+
+  width: 100%;
+  height: 100vh;
+}
+.btn{
+  margin-top: 30px;
+}
+.btn1{
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
+.btn1:hover{
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
+.cor{
+  color: #505050;
+}
+.cor1{
+  color: #fff;
+}
+
+#btnLogin{
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+
+  transition: all .3s linear;
+
+}
+#btnLogin:hover{
+  background-color: #fff;
+  color: #505050;
+  border: 1px solid #505050;
+
+  transition: all .3s linear;
+}
+
+#btnCadastro{
+  background-color: transparent;
+  color: #505050;
+  border: 1px solid #505050;
+
+  transition: all .3s linear;
+
+}
+#btnCadastro:hover{
+  background-color: #505050;
+  color: #fff;
+  border: 1px solid #fff;
+
+  transition: all .3s linear;
+}
+
+.login{
+  padding: 30px;
+  
+  background-color: #505050;
+  color: #fff;
+  font-size: large;
+  font-weight: 400;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 370px;
+  height: 330px;
+
+  border-radius: 20px;
+}
+.login1{
+  padding: 30px;
+  
+  background-color: #505050;
+  color: #fff;
+  font-size: large;
+  font-weight: 400;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 370px;
+  height: 330px;
+
+  border-radius: 20px;
+}
+
+.cadastro{
+  padding: 30px;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  font-size: large;
+  font-weight: 400;
+
+  width: 370px;
+  height: 450px;
+
+  border-radius: 20px;
+}
+.cadastro h4{
+  color: #505050;
+}
+.card h4{
+  margin-bottom: 20px;
+}
+
+.direita{
+  width: 100%;
+  height: 100vh;
+
+  background-color: #505050;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+
+  position: relative;
+}
+.esquerda{
+  width: 100%;
+  height: 100vh;
+
+  background-color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.aleta{
+  width: 350px;
+}
+.cad{
+  text-decoration: none;
+  color: #c98c0a;
+  transition: all .3s linear;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.cad:hover{
+  text-decoration: none;
+  color: #c98c0a;
+  opacity: .7;
+  transition: all .3s linear;
+}
+
+.log{
+  text-decoration: none;
+  color: #ffb821;
+  transition: all .3s linear;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.log:hover{
+  text-decoration: none;
+  color: #ffb821;
+  opacity: .7;
+  transition: all .3s linear;
+}
+
+
+
+#btnlocal1{
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+
+
+  width: 10rem;
+  transition: all .3s linear;
+
+}
+#btnlocal1:hover{
+  background-color: #fff;
+  color: #505050;
+  border: 1px solid #505050;
+
+  transition: all .3s linear;
+}
+
+#btnlocal2{
+  background-color: transparent;
+  color: #c4ff4d;
+  border: 1px solid #c4ff4d;
+
+
+  width: 10rem;
+  transition: all .3s linear;
+
+}
+#btnlocal2:hover{
+  background-color: #c4ff4d;
+  color: #505050;
+  border: 1px solid #505050;
+
+  transition: all .3s linear;
+}
+
+.conjBotao{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 750px){
+  .content{
+    flex-direction: column;
+  }
+  .cadastro {
+    margin: 80px 0;
+    width: 270px;
+  }
+  .login{
+    margin: 80px 0;
+    width: 270px;
+  }
+  .esquerda {
+    height: 100%;
+  }
+  .direita{
+    height: 100%;
+  }
+}
+
+@media(max-width: 370px){
+  .esquerda {
+    height: 100%;
+    margin-top: 480px;
+  }
+}
