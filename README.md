@@ -21,13 +21,13 @@
   
 |Desktop|Ultra Wide|
 |:---:|:---:|
-|<kbd><img src="./carteira/carteira_publica/previews/desktop_preview.jpg" alt="Desktop"/></kbd>|<kbd><img src="../carteira/carteira_publica/previews/ultraWide_preview.jpg" alt="Ultra Wide"/></kbd>|
+|<kbd><img src="./carteira/carteira_publica/previews/desktop_preview.jpg" alt="Desktop"/></kbd>|<kbd><img src="./carteira/carteira_publica/previews/ultraWide_preview.jpg" alt="Ultra Wide"/></kbd>|
 
 ### :iphone: Responsividade
 
 |Tablet|Mobile|
 |:---:|:---:|
-|<kbd><img src="../carteira/carteira_publica/previews/tablet_preview.jpg" alt="Tablet"/></kbd>|<kbd><img src="../carteira/carteira_publica/previews/mobile_preview.jpg" alt="Mobile"/></kbd>
+|<kbd><img src="./carteira/carteira_publica/previews/tablet_preview.jpg" alt="Tablet"/></kbd>|<kbd><img src="./carteira/carteira_publica/previews/mobile_preview.jpg" alt="Mobile"/></kbd>
 
 </div>
   
